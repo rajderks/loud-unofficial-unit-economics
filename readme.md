@@ -1,18 +1,17 @@
 # LOUD Unofficial Unit Economics Balance
 
-_Please note: This is in no way a part of the official LOUD Project mod for Supreme Commander: Forged Alliance! Don't post any bug reports while you have this mod enabled._
+_Please note: This is in no way a part of the official LOUD Project mod for Supreme Commander: Forged Alliance!_
 
 ### Installation
 
 1. Download the amazing LOUD mod here: [ModDB](https://www.moddb.com/mods/loud-ai-supreme-commander-forged-alliance)
 2. Put the latest **.scd** file from the releases tab into your `C:\Users\<your account name>\Documents\My Games\Gas Powered Games\Supreme Commander Forged Alliance\Mods` and **enable User Mods in the LOUD Project Launcher**!
 3. This mod will function with any combination of the three official LOUD unit packs active (BlackOps Unleashed for LOUD, 4th Dimension units for LOUD and LOUD Unit Additions)
-
 4. Select the mod when creating a game and have fun!
 
 ### What does it do?
 
-This is a small mod I made that adjusts the values of the build time/mass/energy of the units below to be more in line with vanilla values. No more 100 mass/s T3 Sera Gunship or dreadnought spam!
+This is a small mod I made that adjusts the values of the build time/mass/energy of the units below to be more in line with vanilla values. No more 100 mass/s T3 Sera Gunship or dreadnought spam! **Do not use in conjunction with evenflow mod from the LOUD Project package.**
 
     UEF: T3 Helltank
     UEF: T3 Artillery Support Bot
