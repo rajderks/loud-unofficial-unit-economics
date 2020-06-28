@@ -25,14 +25,18 @@ do
 			CheckAndModify(all_blueprints, 'bel0308', 3750, 600, 6250)
 
 			-- UEF: T4 Dreadnought
-			CheckAndModify(all_blueprints, 'bes0402', 99328, 55350, 910000)
+			CheckAndModify(all_blueprints, 'bes0402', 89328, 55350, 910000)
 
 			-- UEF: T4 Assault bot (Goliath)
 			CheckAndModify(all_blueprints, 'bel0402', 74496, 41500, 1180000)
 
 			-- UEF: Removed aerial fortresses
-			all_blueprints.Unit.bea0402.Categories = {}
-			all_blueprints.Unit.bea0403.Categories = {}
+			if all_blueprints.Unit.bea0402~=nil then 
+				all_blueprints.Unit.bea0402.Categories = {}
+			end
+			if all_blueprints.Unit.bea0403~=nil then 
+				all_blueprints.Unit.bea0403.Categories = {}
+			end
 
 			-- Cybran: T3 Escort Cruiser
 			CheckAndModify(all_blueprints, 'brs0304', 33520, nil, nil)
@@ -41,10 +45,10 @@ do
 			CheckAndModify(all_blueprints, 'brs0305', 24375, nil, nil)
 
 			-- Cybran: T4 Sea dragon Mark I
-			CheckAndModify(all_blueprints, 'xrs0402', 55200, nil, nil)
+			CheckAndModify(all_blueprints, 'xrs0402', 86112, nil, nil)
 			
 			-- Cybran: T4 Sea dragon Mark II
-			CheckAndModify(all_blueprints, 'brs0402', 104328, 55350, 910000)
+			CheckAndModify(all_blueprints, 'brs0402', 121328, 55350, 910000)
 
 			-- Aeon: T1 Light Sniper Bot
 			CheckAndModify(all_blueprints, 'bal0110', 300, nil, nil)
